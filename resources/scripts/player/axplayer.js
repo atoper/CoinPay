@@ -880,6 +880,8 @@ var iphoneXFirstPass = true;
         if (h || (scaleVal == 1)) {
             $('#clipFrameScroll').scrollLeft(0);
             $('#clipFrameScroll').css('overflow-x', 'hidden');
+        } else {
+            $('#clipFrameScroll').css('overflow-x', '');
         }
 
         var clipToView = h && !$axure.player.noFrame;

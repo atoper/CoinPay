@@ -489,8 +489,6 @@
                     $(window).scrollTop(0);
                     $body.css('overflow', 'hidden');
                     var pageSize = $ax.public.fn.getPageSize();
-                    var originLeftOffset = Number(origin.substring(0, origin.indexOf('p')));
-                    //var hScaleN = (MOBILE_DEVICE ? window.screen.height : $(window).height()) / Math.max(1, pageSize.bottom);
                     var hScaleN = (MOBILE_DEVICE ? data.viewportHeight : $(window).height()) / Math.max(1, pageSize.bottom);
                     if (hScaleN < scaleN) {
                         scaleN = newScaleN = hScaleN;
@@ -545,10 +543,13 @@
         } else if(message == 'setDeviceMode') {
             if (data.device) {
                 // FIXES firefox cursor not staying outside initial device frame border
-                if (FIREFOX) {
+                // SAFARI needs entire content height so that trackpad can be disabled
+                if (FIREFOX || SAFARI) {
                     var pageSize = $ax.public.fn.getPageSize();
                     $('html').css('height', pageSize.bottom + 'px');
                 }
+
+                if (SAFARI) _setTrackpadHorizontalScroll(false);
 
                 if ($('html').getNiceScroll().length == 0 && !MOBILE_DEVICE) {// || !$axure.player.isMobileMode())) {
                 //if ($('html').getNiceScroll().length == 0) {
@@ -581,6 +582,8 @@
                     $(function () { _setHorizontalScroll(false); });
                 }
             } else {
+                if (SAFARI) _setTrackpadHorizontalScroll(true);
+
                 $('html').getNiceScroll().remove();
                 $('html').css('overflow-x', '');
                 $('html').css('cursor', '');
@@ -592,6 +595,22 @@
             }
         }
     });
+
+    var _setTrackpadHorizontalScroll = function (active) {
+        var preventScroll = function (e) {
+            if (Math.abs(e.wheelDeltaX) > 3) {
+                e.preventDefault();
+            }
+        }
+
+        if (!active) {
+            document.body.addEventListener("mousewheel", preventScroll, { passive: false });
+            document.getElementById('html').addEventListener("mousewheel", preventScroll, { passive: false });
+        } else {
+            document.body.removeEventListener("mousewheel", preventScroll, { passive: false });
+            document.getElementById('html').removeEventListener("mousewheel", preventScroll, { passive: false });
+        }
+    }
 
     var _setHorizontalScroll = function (active) {
         var $body = $(document);

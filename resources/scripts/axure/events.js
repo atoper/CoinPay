@@ -1018,11 +1018,8 @@ $axure.internal(function ($ax) {
             // Synthetic events
 
             var map = dObj.interactionMap;
-            // Attach dynamic panel synthetic drag and swipe events
-            if(dObj.type == "dynamicPanel" && map && (
-                map.onDragStart || map.onDrag ||
-                    map.onDragDrop || map.onSwipeLeft || map.onSwipeRight || map.onSwipeUp || map.onSwipeDown)) {
-
+            // Attach synthetic drag and swipe events
+            if(map && (map.onDragStart || map.onDrag || map.onDragDrop || map.onSwipeLeft || map.onSwipeRight || map.onSwipeUp || map.onSwipeDown)) {
                 $element.bind($ax.features.eventNames.mouseDownName, function(e) { $ax.drag.StartDragWidget(e.originalEvent, elementId); });
             }
 
