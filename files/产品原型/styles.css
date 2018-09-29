@@ -35,7 +35,7 @@
   border-width:0px;
   position:absolute;
   left:14px;
-  top:643px;
+  top:683px;
   width:346px;
   height:77px;
   display:flex;
@@ -71,7 +71,7 @@
   border-width:0px;
   position:absolute;
   left:30px;
-  top:657px;
+  top:697px;
   width:50px;
   height:50px;
   display:flex;
@@ -107,7 +107,7 @@
   border-width:0px;
   position:absolute;
   left:120px;
-  top:657px;
+  top:697px;
   width:50px;
   height:50px;
   display:flex;
@@ -143,7 +143,7 @@
   border-width:0px;
   position:absolute;
   left:210px;
-  top:657px;
+  top:697px;
   width:50px;
   height:50px;
   display:flex;
@@ -179,7 +179,7 @@
   border-width:0px;
   position:absolute;
   left:300px;
-  top:657px;
+  top:697px;
   width:50px;
   height:50px;
   display:flex;
@@ -552,6 +552,78 @@
   box-sizing:border-box;
 }
 #u210_text {
+  border-width:0px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u211_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:375px;
+  height:768px;
+  background:inherit;
+  background-color:rgba(242, 242, 242, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u211 {
+  border-width:0px;
+  position:absolute;
+  left:375px;
+  top:0px;
+  width:375px;
+  height:768px;
+  display:flex;
+}
+#u211 .text {
+  position:absolute;
+  width:100%;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+}
+#u211_text {
+  border-width:0px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u212_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:375px;
+  height:812px;
+  background:inherit;
+  background-color:rgba(242, 242, 242, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u212 {
+  border-width:0px;
+  position:absolute;
+  left:750px;
+  top:0px;
+  width:375px;
+  height:812px;
+  display:flex;
+}
+#u212 .text {
+  position:absolute;
+  width:100%;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+}
+#u212_text {
   border-width:0px;
   visibility:hidden;
   word-wrap:break-word;
