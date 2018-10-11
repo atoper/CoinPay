@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" width="94px" height="60px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="449" y1="2015" x2="449" y2="2075" id="LinearGradient16">
-      <stop id="Stop17" stop-color="#ffffff" offset="0" />
-      <stop id="Stop18" stop-color="#f2f2f2" offset="0" />
-      <stop id="Stop19" stop-color="#e4e4e4" offset="1" />
-      <stop id="Stop20" stop-color="#ffffff" offset="1" />
+    <linearGradient gradientUnits="userSpaceOnUse" x1="449" y1="2015" x2="449" y2="2075" id="LinearGradient464">
+      <stop id="Stop465" stop-color="#ffffff" offset="0" />
+      <stop id="Stop466" stop-color="#f2f2f2" offset="0" />
+      <stop id="Stop467" stop-color="#e4e4e4" offset="1" />
+      <stop id="Stop468" stop-color="#ffffff" offset="1" />
     </linearGradient>
   </defs>
   <g transform="translate(-402 -2015 )">
-    <path d="M 402.669288436564 2074.5  L 420.369288436564 2015.5  L 495.330711563436 2015.5  L 477.630711563436 2074.5  L 402.669288436564 2074.5  Z " fill-rule="nonzero" fill="url(#LinearGradient16)" stroke="none" />
+    <path d="M 402.669288436564 2074.5  L 420.369288436564 2015.5  L 495.330711563436 2015.5  L 477.630711563436 2074.5  L 402.669288436564 2074.5  Z " fill-rule="nonzero" fill="url(#LinearGradient464)" stroke="none" />
     <path d="M 402 2075  L 420 2015  L 496 2015  L 478 2075  L 402 2075  Z M 420.738576873129 2016  L 403.338576873128 2074  L 477.261423126871 2074  L 494.661423126872 2016  L 420.738576873129 2016  Z " fill-rule="nonzero" fill="#797979" stroke="none" />
   </g>
 </svg>
