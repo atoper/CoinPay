@@ -187,10 +187,10 @@
   top:0px;
   width:375px;
   height:617px;
+  overflow:auto;
+  -webkit-overflow-scrolling:touch;
   -ms-overflow-x:hidden;
   overflow-x:hidden;
-  -ms-overflow-y:hidden;
-  overflow-y:hidden;
   background-image:none;
   border:none;
   border-radius:0px;
@@ -243,10 +243,10 @@
   width:375px;
   height:617px;
   visibility:hidden;
+  overflow:auto;
+  -webkit-overflow-scrolling:touch;
   -ms-overflow-x:hidden;
   overflow-x:hidden;
-  -ms-overflow-y:hidden;
-  overflow-y:hidden;
   background-image:none;
   border:none;
   border-radius:0px;
