@@ -22,7 +22,7 @@
   left:0px;
   top:0px;
   width:375px;
-  height:667px;
+  height:647px;
 }
 #u1036_state0 {
   border-width:0px;
@@ -30,7 +30,7 @@
   left:0px;
   top:0px;
   width:375px;
-  height:667px;
+  height:647px;
   -ms-overflow-x:hidden;
   overflow-x:hidden;
   -ms-overflow-y:hidden;
@@ -56,7 +56,7 @@
   left:0px;
   top:0px;
   width:375px;
-  height:667px;
+  height:647px;
 }
 #u1037 {
   border-width:0px;
@@ -64,7 +64,7 @@
   left:0px;
   top:0px;
   width:375px;
-  height:667px;
+  height:647px;
   display:flex;
 }
 #u1037 .text {
@@ -85,7 +85,7 @@
   left:0px;
   top:0px;
   width:375px;
-  height:667px;
+  height:647px;
   visibility:hidden;
   -ms-overflow-x:hidden;
   overflow-x:hidden;
@@ -151,7 +151,7 @@
   left:0px;
   top:0px;
   width:375px;
-  height:667px;
+  height:647px;
   visibility:hidden;
   -ms-overflow-x:hidden;
   overflow-x:hidden;
@@ -944,7 +944,7 @@
   left:0px;
   top:0px;
   width:375px;
-  height:667px;
+  height:647px;
   visibility:hidden;
   -ms-overflow-x:hidden;
   overflow-x:hidden;
@@ -1502,10 +1502,10 @@
   top:0px;
   width:375px;
   height:528px;
+  overflow:auto;
+  -webkit-overflow-scrolling:touch;
   -ms-overflow-x:hidden;
   overflow-x:hidden;
-  -ms-overflow-y:hidden;
-  overflow-y:hidden;
   background-image:none;
   border:none;
   border-radius:0px;
