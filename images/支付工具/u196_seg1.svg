@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" width="20px" height="20px" viewBox="270 1948  20 20" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <mask fill="white" id="clip244">
+    <mask fill="white" id="clip1346">
       <path d="M 263.5 1972  L 296.5 1972  L 296.5 1999  L 263.5 1999  Z M 263.5 1955  L 296.5 1955  L 296.5 2023  L 263.5 2023  Z " fill-rule="evenodd" />
     </mask>
   </defs>
-  <path d="M 275.707106781187 1962.10710678119  L 280 1957.81421356237  L 284.292893218813 1962.10710678119  L 285.707106781187 1960.69289321881  L 280.707106781187 1955.69289321881  L 280 1954.98578643763  L 279.292893218813 1955.69289321881  L 274.292893218813 1960.69289321881  L 275.707106781187 1962.10710678119  Z " fill-rule="nonzero" fill="#0099cc" stroke="none" mask="url(#clip244)" />
-  <rect fill-rule="evenodd" fill="#0099cc" stroke="none" x="279" y="1957" width="2" height="59" mask="url(#clip244)" />
-  <path d="" stroke-width="2" stroke="#0099cc" fill="none" mask="url(#clip244)" />
+  <path d="M 275.707106781187 1962.10710678119  L 280 1957.81421356237  L 284.292893218813 1962.10710678119  L 285.707106781187 1960.69289321881  L 280.707106781187 1955.69289321881  L 280 1954.98578643763  L 279.292893218813 1955.69289321881  L 274.292893218813 1960.69289321881  L 275.707106781187 1962.10710678119  Z " fill-rule="nonzero" fill="#0099cc" stroke="none" mask="url(#clip1346)" />
+  <rect fill-rule="evenodd" fill="#0099cc" stroke="none" x="279" y="1957" width="2" height="59" mask="url(#clip1346)" />
+  <path d="" stroke-width="2" stroke="#0099cc" fill="none" mask="url(#clip1346)" />
 </svg>

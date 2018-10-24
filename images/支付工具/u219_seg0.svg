@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" width="79px" height="8px" viewBox="832 2041  79 8" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <mask fill="white" id="clip270">
+    <mask fill="white" id="clip1372">
       <path d="M 853.5 2032  L 886.5 2032  L 886.5 2059  L 853.5 2059  Z M 832 2032  L 915 2032  L 915 2059  L 832 2059  Z " fill-rule="evenodd" />
     </mask>
   </defs>
-  <path d="M 899.892893218813 2040.70710678119  L 904.185786437627 2045  L 899.892893218813 2049.29289321881  L 901.307106781187 2050.70710678119  L 906.307106781187 2045.70710678119  L 907.014213562373 2045  L 906.307106781187 2044.29289321881  L 901.307106781187 2039.29289321881  L 899.892893218813 2040.70710678119  Z " fill-rule="nonzero" fill="#0099cc" stroke="none" mask="url(#clip270)" />
-  <rect fill-rule="evenodd" fill="#0099cc" stroke="none" x="832" y="2044" width="73" height="2" mask="url(#clip270)" />
-  <path d="" stroke-width="2" stroke="#0099cc" fill="none" mask="url(#clip270)" />
+  <path d="M 899.892893218813 2040.70710678119  L 904.185786437627 2045  L 899.892893218813 2049.29289321881  L 901.307106781187 2050.70710678119  L 906.307106781187 2045.70710678119  L 907.014213562373 2045  L 906.307106781187 2044.29289321881  L 901.307106781187 2039.29289321881  L 899.892893218813 2040.70710678119  Z " fill-rule="nonzero" fill="#0099cc" stroke="none" mask="url(#clip1372)" />
+  <rect fill-rule="evenodd" fill="#0099cc" stroke="none" x="832" y="2044" width="73" height="2" mask="url(#clip1372)" />
+  <path d="" stroke-width="2" stroke="#0099cc" fill="none" mask="url(#clip1372)" />
 </svg>
