@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" width="8px" height="84px" viewBox="711 593  8 84" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" width="94px" height="8px" viewBox="575 699  94 8" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <mask fill="white" id="clip257">
-      <path d="M 698.5 620  L 731.5 620  L 731.5 647  L 698.5 647  Z M 698.5 593  L 731.5 593  L 731.5 680  L 698.5 680  Z " fill-rule="evenodd" />
+    <mask fill="white" id="clip1017">
+      <path d="M 603.5 690  L 636.5 690  L 636.5 717  L 603.5 717  Z M 575 690  L 672 690  L 672 717  L 575 717  Z " fill-rule="evenodd" />
     </mask>
   </defs>
-  <path d="M 721.8 599.5  L 715.5 593.5  L 709.2 599.5  L 721.8 599.5  Z " fill-rule="nonzero" fill="#0099cc" stroke="none" mask="url(#clip257)" />
-  <rect fill-rule="evenodd" fill="#0099cc" stroke="none" x="715" y="598.5" width="1" height="75.5" mask="url(#clip257)" />
-  <path d="" stroke-width="1" stroke="#0099cc" fill="none" mask="url(#clip257)" />
+  <path d="M 659.5 709.8  L 665.5 703.5  L 659.5 697.2  L 659.5 709.8  Z " fill-rule="nonzero" fill="#0099cc" stroke="none" mask="url(#clip1017)" />
+  <rect fill-rule="evenodd" fill="#0099cc" stroke="none" x="575" y="703" width="85.5" height="1" mask="url(#clip1017)" />
+  <path d="" stroke-width="1" stroke="#0099cc" fill="none" mask="url(#clip1017)" />
 </svg>
