@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" width="100px" height="60px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="279" y1="443" x2="279" y2="503" id="LinearGradient833">
-      <stop id="Stop834" stop-color="#ffffff" offset="0" />
-      <stop id="Stop835" stop-color="#f2f2f2" offset="0" />
-      <stop id="Stop836" stop-color="#e4e4e4" offset="1" />
-      <stop id="Stop837" stop-color="#ffffff" offset="1" />
+    <linearGradient gradientUnits="userSpaceOnUse" x1="279" y1="443" x2="279" y2="503" id="LinearGradient1016">
+      <stop id="Stop1017" stop-color="#ffffff" offset="0" />
+      <stop id="Stop1018" stop-color="#f2f2f2" offset="0" />
+      <stop id="Stop1019" stop-color="#e4e4e4" offset="1" />
+      <stop id="Stop1020" stop-color="#ffffff" offset="1" />
     </linearGradient>
   </defs>
   <g transform="translate(-229 -443 )">
-    <path d="M 279 502.434314575051  L 229.942809041582 473  L 279 443.565685424949  L 328.057190958418 473  L 279 502.434314575051  Z " fill-rule="nonzero" fill="url(#LinearGradient833)" stroke="none" />
+    <path d="M 279 502.434314575051  L 229.942809041582 473  L 279 443.565685424949  L 328.057190958418 473  L 279 502.434314575051  Z " fill-rule="nonzero" fill="url(#LinearGradient1016)" stroke="none" />
     <path d="M 279 503  L 229 473  L 279 443  L 329 473  L 279 503  Z M 230.885618083164 473  L 279 501.868629150102  L 327.114381916836 473  L 279 444.131370849898  L 230.885618083164 473  Z " fill-rule="nonzero" fill="#797979" stroke="none" />
   </g>
 </svg>
