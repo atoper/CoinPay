@@ -16,7 +16,7 @@
   position:absolute;
   z-index:0;
 }
-#u205_div {
+#u226_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -36,7 +36,7 @@
   font-size:14px;
   line-height:26px;
 }
-#u205 {
+#u226 {
   border-width:0px;
   position:absolute;
   left:50px;
@@ -50,18 +50,18 @@
   font-size:14px;
   line-height:26px;
 }
-#u205 .text {
+#u226 .text {
   position:absolute;
   width:100%;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
 }
-#u205_text {
+#u226_text {
   border-width:0px;
   word-wrap:break-word;
 }
-#u206_div {
+#u227_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -80,7 +80,7 @@
   font-style:normal;
   font-size:20px;
 }
-#u206 {
+#u227 {
   border-width:0px;
   position:absolute;
   left:50px;
@@ -93,18 +93,18 @@
   font-style:normal;
   font-size:20px;
 }
-#u206 .text {
+#u227 .text {
   position:absolute;
   width:100%;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
 }
-#u206_text {
+#u227_text {
   border-width:0px;
   white-space:nowrap;
 }
-#u207_img {
+#u228_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -112,7 +112,7 @@
   width:1001px;
   height:2px;
 }
-#u207 {
+#u228 {
   border-width:0px;
   position:absolute;
   left:50px;
@@ -121,19 +121,19 @@
   height:1px;
   display:flex;
 }
-#u207 .text {
+#u228 .text {
   position:absolute;
   width:100%;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
 }
-#u207_text {
+#u228_text {
   border-width:0px;
   visibility:hidden;
   word-wrap:break-word;
 }
-#u208_div {
+#u229_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -153,7 +153,7 @@
   font-size:14px;
   line-height:26px;
 }
-#u208 {
+#u229 {
   border-width:0px;
   position:absolute;
   left:50px;
@@ -167,18 +167,18 @@
   font-size:14px;
   line-height:26px;
 }
-#u208 .text {
+#u229 .text {
   position:absolute;
   width:100%;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
 }
-#u208_text {
+#u229_text {
   border-width:0px;
   word-wrap:break-word;
 }
-#u209 {
+#u230 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -188,7 +188,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u210 {
+#u231 {
   border-width:0px;
   position:absolute;
   left:1000px;
