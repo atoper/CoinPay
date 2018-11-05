@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" width="58px" height="6px" viewBox="856 958  58 6" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" width="56px" height="8px" viewBox="584 616  56 8" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <mask fill="white" id="clip1871">
-      <path d="M 868.5 948  L 901.5 948  L 901.5 975  L 868.5 975  Z M 856 948  L 921 948  L 921 975  L 856 975  Z " fill-rule="evenodd" />
+    <mask fill="white" id="clip2070">
+      <path d="M 595.5 607  L 628.5 607  L 628.5 634  L 595.5 634  Z M 584 607  L 647 607  L 647 634  L 584 634  Z " fill-rule="evenodd" />
     </mask>
   </defs>
-  <g transform="matrix(-1 0 0 -1 1770 1922 )">
-    <path d="M 905.892893218813 956.707106781187  L 910.185786437627 961  L 905.892893218813 965.292893218813  L 907.307106781187 966.707106781187  L 912.307106781187 961.707106781187  L 913.014213562373 961  L 912.307106781187 960.292893218813  L 907.307106781187 955.292893218813  L 905.892893218813 956.707106781187  Z " fill-rule="nonzero" fill="#169bd5" stroke="none" mask="url(#clip1871)" />
-    <rect fill-rule="evenodd" fill="#169bd5" stroke="none" x="857" y="960" width="54" height="2" mask="url(#clip1871)" />
-    <path d="" stroke-width="2" stroke="#169bd5" fill="none" mask="url(#clip1871)" />
+  <g transform="matrix(-1 0 0 -1 1224 1240 )">
+    <path d="M 631.892893218813 615.707106781187  L 636.185786437627 620  L 631.892893218813 624.292893218813  L 633.307106781187 625.707106781187  L 638.307106781187 620.707106781187  L 639.014213562373 620  L 638.307106781187 619.292893218813  L 633.307106781187 614.292893218813  L 631.892893218813 615.707106781187  Z " fill-rule="nonzero" fill="#169bd5" stroke="none" mask="url(#clip2070)" />
+    <rect fill-rule="evenodd" fill="#169bd5" stroke="none" x="584" y="619" width="53" height="2" mask="url(#clip2070)" />
+    <path d="" stroke-width="2" stroke="#169bd5" fill="none" mask="url(#clip2070)" />
   </g>
 </svg>
