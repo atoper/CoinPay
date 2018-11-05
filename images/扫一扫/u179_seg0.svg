@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" width="102px" height="10px" viewBox="498 320  102 10" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(-0.952659211218681 0.304040173793195 -0.304040173793202 -0.952659211218679 1170.82296344185 467.696188233606 )">
-    <path d="M 590.534561260112 333.7494897514  L 593.319013527469 339.144366019405  L 587.924137259464 341.928818286762  L 588.841423099005 343.706059600872  L 595.124920024064 340.462964413744  L 596.013540681119 340.004321493974  L 595.554897761349 339.115700836919  L 592.311802574221 332.83220391186  L 590.534561260112 333.7494897514  Z " fill-rule="nonzero" fill="#02a7f0" stroke="none" />
-    <path d="M 502 310  L 594.094681577563 339.391919652414  " stroke-width="2" stroke="#02a7f0" fill="none" />
-  </g>
+<svg version="1.1" width="8px" height="64px" viewBox="768 1039  8 64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip1888">
+      <path d="M 755.5 1056  L 788.5 1056  L 788.5 1083  L 755.5 1083  Z M 755.5 1039  L 788.5 1039  L 788.5 1107  L 755.5 1107  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <path d="M 776.292893218813 1092.89289321881  L 772 1097.18578643763  L 767.707106781187 1092.89289321881  L 766.292893218813 1094.30710678119  L 771.292893218813 1099.30710678119  L 772 1100.01421356237  L 772.707106781187 1099.30710678119  L 777.707106781187 1094.30710678119  L 776.292893218813 1092.89289321881  Z " fill-rule="nonzero" fill="#0099cc" stroke="none" mask="url(#clip1888)" />
+  <rect fill-rule="evenodd" fill="#0099cc" stroke="none" x="771" y="1039" width="2" height="59" mask="url(#clip1888)" />
+  <path d="" stroke-width="2" stroke="#0099cc" fill="none" mask="url(#clip1888)" />
 </svg>
