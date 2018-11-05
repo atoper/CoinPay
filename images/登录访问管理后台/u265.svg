@@ -1,18 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" width="94px" height="60px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" width="1010px" height="645px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="47" y1="0" x2="47" y2="60" id="LinearGradient441">
-      <stop id="Stop442" stop-color="#ffffff" offset="0" />
-      <stop id="Stop443" stop-color="#f2f2f2" offset="0" />
-      <stop id="Stop444" stop-color="#e4e4e4" offset="1" />
-      <stop id="Stop445" stop-color="#ffffff" offset="1" />
-    </linearGradient>
-    <mask fill="white" id="clip446">
-      <path d="M 47 60  L 0 30  L 47 0  L 94 30  L 47 60  Z " fill-rule="evenodd" />
-    </mask>
+    <radialGradient cx="766.249999999999" cy="1440" r="670.731876385788" gradientTransform="matrix(-0.965363393028266 0.260909025142776 -0.165677230965663 -0.613005754572949 1744.53491249846 2122.80674606939 )" gradientUnits="userSpaceOnUse" id="RadialGradient1539">
+      <stop id="Stop1540" stop-color="#cecece" offset="0" />
+      <stop id="Stop1541" stop-color="#828282" offset="1" />
+    </radialGradient>
+    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter1542">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget1543">
+      <path d="M 50 1110  L 1050 1110  L 1050 1745  L 50 1745  L 50 1110  Z " fill-rule="nonzero" fill="url(#RadialGradient1539)" stroke="none" />
+    </g>
   </defs>
-  <g transform="translate(-538 -514 )">
-    <path d="M 47 60  L 0 30  L 47 0  L 94 30  L 47 60  Z " fill-rule="nonzero" fill="url(#LinearGradient441)" stroke="none" transform="matrix(1 0 0 1 538 514 )" />
-    <path d="M 47 60  L 0 30  L 47 0  L 94 30  L 47 60  Z " stroke-width="2" stroke="#797979" fill="none" transform="matrix(1 0 0 1 538 514 )" mask="url(#clip446)" />
+  <g transform="translate(-45 -1105 )">
+    <use xlink:href="#widget1543" filter="url(#filter1542)" />
+    <use xlink:href="#widget1543" />
   </g>
 </svg>

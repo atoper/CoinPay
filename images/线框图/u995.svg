@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" width="17px" height="43px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-  <g transform="translate(-1019 -1534 )">
-    <rect fill-rule="evenodd" fill="#038000" stroke="none" x="1023" y="1538" width="8" height="34" />
-    <path d="" stroke-width="8" stroke="#038000" fill="none" />
+<svg version="1.1" width="165px" height="25px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(-699 -1382 )">
+    <path d="M 699 1383  L 864 1383  L 864 1406  L 699 1406  L 699 1383  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" fill-opacity="0" />
+    <rect fill-rule="evenodd" fill="#e3e3e3" stroke="none" x="699" y="1382" width="165" height="1" />
+    <rect fill-rule="evenodd" fill="#e3e3e3" stroke="none" x="699" y="1406" width="165" height="1" />
+    <path d="" stroke-width="1" stroke-dasharray="1,1" stroke="#e3e3e3" fill="none" stroke-dashoffset="0.5" />
   </g>
 </svg>
