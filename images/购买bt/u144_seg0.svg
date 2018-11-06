@@ -1,8 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" width="60px" height="6px" viewBox="780 658  60 6" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(0 -1 1 0 149 1471 )">
-    <path d="M 805.707106781187 638.107106781187  L 810 633.814213562373  L 814.292893218813 638.107106781187  L 815.707106781187 636.692893218813  L 810.707106781187 631.692893218813  L 810 630.985786437627  L 809.292893218813 631.692893218813  L 804.292893218813 636.692893218813  L 805.707106781187 638.107106781187  Z " fill-rule="nonzero" fill="#169bd5" stroke="none" />
-    <rect fill-rule="evenodd" fill="#169bd5" stroke="none" x="809" y="633" width="2" height="58" />
-    <path d="" stroke-width="2" stroke="#169bd5" fill="none" />
+<svg version="1.1" width="422px" height="8px" viewBox="702 868  422 8" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip47">
+      <path d="M 897.5 859  L 930.5 859  L 930.5 886  L 897.5 886  Z M 897.5 660.991074287491  L 930.5 660.991074287491  L 930.5 1090  L 897.5 1090  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(-0.00238094563226811 0.999997165544936 -0.999997165544931 -0.00238094563224992 1787.17133171744 -38.921227551205 )">
+    <path d="M 913 662  L 913.995238108736 1080.00000566891  " stroke-width="2" stroke="#169bd5" fill="none" mask="url(#clip47)" />
+    <path d="M 918.275959415952 1074.88269221823  L 913.993299510511 1079.18579441439  L 909.690197314351 1074.90313450895  L 908.279354926107 1076.3207112284  L 913.291245481993 1081.30879232796  L 914.000033841719 1082.01421352209  L 914.705455035841 1081.30542516236  L 919.693536135405 1076.29353460647  L 918.275959415952 1074.88269221823  Z " fill-rule="nonzero" fill="#169bd5" stroke="none" mask="url(#clip47)" />
   </g>
 </svg>
