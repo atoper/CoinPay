@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" width="8px" height="23px" viewBox="401 550  8 23" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <mask fill="white" id="clip298">
-      <path d="M 0 0  L 0 0  L 0 0  L 0 0  Z M 402 551  L 631 551  L 631 573  L 402 573  Z " fill-rule="evenodd" />
+    <mask fill="white" id="clip592">
+      <path d="M 0 0  L 0 0  L 0 0  L 0 0  Z M 402 551  L 472 551  L 472 573  L 402 573  Z " fill-rule="evenodd" />
     </mask>
   </defs>
-  <path d="M 405.5 574  L 405.5 554.5  L 628.5 554.5  L 628.5 574  " stroke-width="1" stroke-dasharray="1,1" stroke="#02a7f0" fill="none" mask="url(#clip298)" />
+  <path d="M 405.5 574  L 405.5 554.5  L 469.5 554.5  L 469.5 574  " stroke-width="1" stroke-dasharray="1,1" stroke="#02a7f0" fill="none" mask="url(#clip592)" />
 </svg>

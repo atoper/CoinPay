@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" width="24px" height="8px" viewBox="952 406  24 8" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(-0.957826285221153 0.287347885566341 -0.287347885566346 -0.957826285221144 2005.15717203539 525.705415254716 )">
-    <path d="M 954 407  L 974 413  " stroke-width="6" stroke-dasharray="6,6" stroke="#1a1a1a" fill="none" />
+<svg version="1.1" width="54px" height="8px" viewBox="922 636  54 8" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip500">
+      <path d="M 0 0  L 0 0  L 0 0  L 0 0  Z M 921.735980988246 633.333250825593  L 976.264019011754 633.333250825593  L 976.264019011754 646.666749174407  L 921.735980988246 646.666749174407  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(-0.995037190209989 0.0995037190209977 -0.0995037190210004 -0.995037190209979 1956.97267368272 1182.39477238346 )">
+    <path d="M 924 637  L 974 642  " stroke-width="6" stroke-dasharray="6,6" stroke="#015478" fill="none" mask="url(#clip500)" />
   </g>
 </svg>
