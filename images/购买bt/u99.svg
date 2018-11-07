@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" width="94px" height="60px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="430" y1="1840" x2="430" y2="1900" id="LinearGradient325">
-      <stop id="Stop326" stop-color="#ffffff" offset="0" />
-      <stop id="Stop327" stop-color="#f2f2f2" offset="0" />
-      <stop id="Stop328" stop-color="#e4e4e4" offset="1" />
-      <stop id="Stop329" stop-color="#ffffff" offset="1" />
+    <linearGradient gradientUnits="userSpaceOnUse" x1="430" y1="1920" x2="430" y2="1980" id="LinearGradient1582">
+      <stop id="Stop1583" stop-color="#ffffff" offset="0" />
+      <stop id="Stop1584" stop-color="#f2f2f2" offset="0" />
+      <stop id="Stop1585" stop-color="#e4e4e4" offset="1" />
+      <stop id="Stop1586" stop-color="#ffffff" offset="1" />
     </linearGradient>
   </defs>
-  <g transform="translate(-383 -1840 )">
-    <path d="M 383.669288436564 1899.5  L 401.369288436564 1840.5  L 476.330711563436 1840.5  L 458.630711563436 1899.5  L 383.669288436564 1899.5  Z " fill-rule="nonzero" fill="url(#LinearGradient325)" stroke="none" />
-    <path d="M 383 1900  L 401 1840  L 477 1840  L 459 1900  L 383 1900  Z M 401.738576873129 1841  L 384.338576873128 1899  L 458.261423126871 1899  L 475.661423126872 1841  L 401.738576873129 1841  Z " fill-rule="nonzero" fill="#797979" stroke="none" />
+  <g transform="translate(-383 -1920 )">
+    <path d="M 383.669288436564 1979.5  L 401.369288436564 1920.5  L 476.330711563436 1920.5  L 458.630711563436 1979.5  L 383.669288436564 1979.5  Z " fill-rule="nonzero" fill="url(#LinearGradient1582)" stroke="none" />
+    <path d="M 383 1980  L 401 1920  L 477 1920  L 459 1980  L 383 1980  Z M 401.738576873129 1921  L 384.338576873128 1979  L 458.261423126871 1979  L 475.661423126872 1921  L 401.738576873129 1921  Z " fill-rule="nonzero" fill="#797979" stroke="none" />
   </g>
 </svg>
