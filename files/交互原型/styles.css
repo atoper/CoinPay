@@ -1,11 +1,11 @@
 ﻿body {
   margin:0px;
   background-image:none;
-  position:relative;
-  left:0px;
+  position:static;
+  left:auto;
   width:375px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left:0;
+  margin-right:0;
   text-align:left;
 }
 .form_sketch {
@@ -16,7 +16,7 @@
   position:absolute;
   z-index:0;
 }
-#u959 {
+#u1853 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -24,7 +24,7 @@
   width:375px;
   height:647px;
 }
-#u959_input {
+#u1853_input {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -33,7 +33,7 @@
   height:647px;
   overflow:hidden;
 }
-#u960_div {
+#u1854_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -51,7 +51,7 @@
   font-weight:400;
   font-style:normal;
 }
-#u960 {
+#u1854 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -63,14 +63,15 @@
   font-weight:400;
   font-style:normal;
 }
-#u960 .text {
+#u1854 .text {
   position:absolute;
-  width:100%;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
+  width:100%;
 }
-#u960_text {
+#u1854_text {
   border-width:0px;
   white-space:nowrap;
+  text-transform:none;
 }

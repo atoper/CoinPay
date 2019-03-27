@@ -16,7 +16,7 @@
   position:absolute;
   z-index:0;
 }
-#u309_div {
+#u1736_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -36,7 +36,7 @@
   font-size:14px;
   line-height:26px;
 }
-#u309 {
+#u1736 {
   border-width:0px;
   position:absolute;
   left:50px;
@@ -50,18 +50,19 @@
   font-size:14px;
   line-height:26px;
 }
-#u309 .text {
+#u1736 .text {
   position:absolute;
-  width:100%;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
+  width:100%;
 }
-#u309_text {
+#u1736_text {
   border-width:0px;
   word-wrap:break-word;
+  text-transform:none;
 }
-#u310_div {
+#u1737_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -80,7 +81,7 @@
   font-style:normal;
   font-size:20px;
 }
-#u310 {
+#u1737 {
   border-width:0px;
   position:absolute;
   left:50px;
@@ -93,18 +94,19 @@
   font-style:normal;
   font-size:20px;
 }
-#u310 .text {
+#u1737 .text {
   position:absolute;
-  width:100%;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
+  width:100%;
 }
-#u310_text {
+#u1737_text {
   border-width:0px;
   white-space:nowrap;
+  text-transform:none;
 }
-#u311_img {
+#u1738_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -112,7 +114,7 @@
   width:1001px;
   height:2px;
 }
-#u311 {
+#u1738 {
   border-width:0px;
   position:absolute;
   left:50px;
@@ -121,19 +123,20 @@
   height:1px;
   display:flex;
 }
-#u311 .text {
+#u1738 .text {
   position:absolute;
-  width:100%;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
+  width:100%;
 }
-#u311_text {
+#u1738_text {
   border-width:0px;
-  visibility:hidden;
   word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
 }
-#u312_div {
+#u1739_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -153,7 +156,7 @@
   font-size:14px;
   line-height:26px;
 }
-#u312 {
+#u1739 {
   border-width:0px;
   position:absolute;
   left:50px;
@@ -167,18 +170,19 @@
   font-size:14px;
   line-height:26px;
 }
-#u312 .text {
+#u1739 .text {
   position:absolute;
-  width:100%;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
+  width:100%;
 }
-#u312_text {
+#u1739_text {
   border-width:0px;
   word-wrap:break-word;
+  text-transform:none;
 }
-#u313 {
+#u1740 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -188,7 +192,7 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
-#u314 {
+#u1741 {
   border-width:0px;
   position:absolute;
   left:1000px;

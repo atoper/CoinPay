@@ -777,7 +777,7 @@ $axure.internal(function($ax) {
             if($rtfObj.length == 0) return '';
 
             var textOut = '';
-            $rtfObj.children('p').each(function(index) {
+            $rtfObj.children('p,ul,ol').each(function(index) {
                 if(index != 0) textOut += '\n';
 
                 //var htmlContent = $(this).html();
@@ -905,19 +905,22 @@ $axure.internal(function($ax) {
     var _scrollHelper = function(id, scrollX, scrollY, easing, duration) {
         var target = window.document.getElementById(id);
         var scrollable = $ax.legacy.GetScrollable(target);
-        var viewportLocation = $ax('#' + id).viewportLocation($(scrollable).attr('id'));
+        var $scrollable = $(scrollable);
+
+        var viewportLocation;
+        if ($scrollable.is('body')) viewportLocation = $ax('#' + id).viewportLocation();
+        else viewportLocation = $ax('#' + id).pageBoundingRect(true, $scrollable.attr('id')).location;
+
         var targetLeft = viewportLocation.left;
         var targetTop = viewportLocation.top;
         //var targetLeft = _getRelativeLeft(id, scrollable);
         //var targetTop = _getRelativeTop(id, scrollable);
         if(!scrollX) targetLeft = scrollable.scrollLeft;
         if(!scrollY) targetTop = scrollable.scrollTop;
-
-        var $scrollable = $(scrollable);
+        
         if($scrollable.is('body')) {
             $scrollable = $('html,body');
         }
-
         if(easing == 'none') {
             if(scrollY) $scrollable.scrollTop(targetTop);
             if(scrollX) $scrollable.scrollLeft(targetLeft);
@@ -947,6 +950,7 @@ $axure.internal(function($ax) {
         var scrollX = true;
         var scrollY = true;
 
+        // TODO: check this without vertical option -- might scroll outside of device frame
         if(scrollOption.direction == 'vertical') {
             scrollX = false;
         } else if(scrollOption.direction == 'horizontal') {
@@ -1099,6 +1103,9 @@ $axure.internal(function($ax) {
     $ax.public.fn.focus = function() {
         var firstId = this.getElementIds()[0];
         var focusableId = $ax.event.getFocusableWidgetOrChildId(firstId);
+        // This will scroll but not focus
+        $('#' + focusableId).triggerHandler("focus");
+        // This will focus but does not call our custom scroll so will not animate scroll
         $('#' + focusableId).focus();
 
         return this;
@@ -1305,7 +1312,7 @@ $axure.internal(function($ax) {
 
         var horz = axObj.fixedHorizontal;
         if(horz == 'left') {
-            newLeft = windowScrollLeft + axObj.fixedMarginHorizontal;
+            newLeft = windowScrollLeft + (axObj.percentWidth ? 0 : $ax.getNumFromPx($jobj(elementId).css('left')));
         } else if(horz == 'center') {
             newLeft = windowScrollLeft + ((windowWidth - width) / 2) + axObj.fixedMarginHorizontal;
         } else if(horz == 'right') {
@@ -1314,7 +1321,7 @@ $axure.internal(function($ax) {
 
         var vert = axObj.fixedVertical;
         if(vert == 'top') {
-            newTop = windowScrollTop + axObj.fixedMarginVertical;
+            newTop = windowScrollTop + $ax.getNumFromPx($jobj(elementId).css('top'));
         } else if(vert == 'middle') {
             newTop = windowScrollTop + ((windowHeight - height) / 2) + axObj.fixedMarginVertical;
         } else if(vert == 'bottom') {
@@ -1370,6 +1377,7 @@ $axure.internal(function($ax) {
                     var rdoLoc = $ax('#' + parentId).offsetLocation();
                     position.left += rdoLoc.x;
                     position.top += rdoLoc.y;
+                    break;
                 } else if (!$axure.fn.IsLayer(type)) break;
             }
         } else {
@@ -1461,7 +1469,7 @@ $axure.internal(function($ax) {
             parentIds.push($ax.getScriptIdFromPath([parObj.id], this.id));
             parObj = parObj.parent;
         }
-        var otherParents = $ax('#' + elementId).getParents(true, ['item', 'repeater', 'dynamicPanel', 'layer'])[0];
+        var otherParents = $ax('#' + elementId).getParents(true, ['item', 'repeater', 'dynamicPanel'])[0];
         for (var i = 0; i < otherParents.length; i++) {
             parentIds.push(otherParents[i]);
         }
@@ -1489,7 +1497,10 @@ $axure.internal(function($ax) {
                 top: loc.top + parentLoc.top,
              }
             var axObj = $obj(parentId);
-            if(axObj && axObj.fixedVertical) break;
+            if(axObj && axObj.fixedVertical) {
+                boundingRect.isFixed = true;
+                break;
+            }
         }
 
         boundingRect.left = loc.x;

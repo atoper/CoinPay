@@ -43,7 +43,8 @@ $axure.internal(function($ax) {
             var scrollY = win.scrollTop();
             var scrollX = win.scrollLeft();
 
-        var messageData = {id: elementId, x: event.pageX - scrollX, y: event.pageY - scrollY}
+        var messageData = { id: elementId, x: event.pageX - scrollX, y: event.pageY - scrollY }
+        if (window.name != 'mainFrame') messageData.page = $ax.pageData.notesData;
         $ax.messageCenter.postMessage('toggleAnnDialog', messageData);
     }
     
@@ -74,7 +75,7 @@ $axure.internal(function($ax) {
                                 elementIdQuery.after("<div id='" + elementId + "_ann' class='annnote'>&#8203;</div>");
                                 appendFns($('#' + elementId + "_ann"), fns);
                             }
-                            _adjustIconLocation(dObj, elementId);
+                            _adjustIconLocation(elementId, dObj);
                         }
 
                         if (create) {
@@ -82,6 +83,15 @@ $axure.internal(function($ax) {
                                 _toggleAnnotationDialog(dObj.id, e);
                                 return false;
                             });
+
+                            var isVisible = true;
+                            var isMaster = $ax.public.fn.IsReferenceDiagramObject(dObj.type);
+                            if (isMaster) isVisible = dObj.visible;
+                            else isVisible = $ax.visibility.IsIdVisible(elementId);
+                            if (!isVisible) {
+                                var ann = document.getElementById(elementId + "_ann");
+                                if (ann) $ax.visibility.SetVisible(ann, false);
+                            }
                         }
                     }
                 });
@@ -125,7 +135,7 @@ $axure.internal(function($ax) {
     });
 
     //adjust annotation location to a element's top right corner
-    var _adjustIconLocation = $ax.annotation.adjustIconLocation = function(dObj, id) {
+    var _adjustIconLocation = $ax.annotation.adjustIconLocation = function(id, dObj) {
         var ann = document.getElementById(id + "_ann");
         if(ann) {
             var corners = $ax.public.fn.getCornersFromComponent(id);
@@ -134,7 +144,8 @@ $axure.internal(function($ax) {
             //note size is 14x8, this is how rp calculated it as well
             ann.style.left = (newTopRight.x - width) + "px";
 
-            var yOffset = dObj.type == 'tableCell' ? 0 : -8;
+            var elementType = dObj ? dObj.type : $ax.getTypeFromElementId(id);
+            var yOffset = $ax.public.fn.IsTableCell(elementType) ? 0 : -8;
             ann.style.top = (newTopRight.y + yOffset) + "px";
         }
 

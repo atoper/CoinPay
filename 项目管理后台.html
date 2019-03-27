@@ -1,0 +1,1242 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>项目管理后台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/项目管理后台/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/项目管理后台/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u902" class="ax_default _标题_3">
+        <div id="u902_div" class=""></div>
+        <div id="u902_text" class="text ">
+          <p><span style="text-decoration:none;">项目管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u903" class="ax_default line">
+        <img id="u903_img" class="img " src="images/迭代需求（3_27）/u3.svg"/>
+        <div id="u903_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u904" class="ax_default">
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u905" class="ax_default _文本">
+        <div id="u905_div" class=""></div>
+        <div id="u905_text" class="text ">
+          <p><span style="text-decoration:none;">已发项目的管理功能</span></p><ul><li style=""><span style="text-decoration:none;">“项目管理”汇总展示当前管理账号所有的已发项目</span></li><li style=""><span style="text-decoration:none;">基于项目的不同状态，提供对应的操作管理功能</span></li></ul>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u906" class="ax_default _文本">
+        <div id="u906_div" class=""></div>
+        <div id="u906_text" class="text ">
+          <p style="font-size:14px;"><span style="text-decoration:none;">项目状态以及对应操作项</span></p><p style="font-size:14px;"><span style="text-decoration:none;">1、待审核</span></p><ul><li style="font-size:14px;"><span style="text-decoration:none;">即提交信息后，节点运营商管理人员暂未处理的项目状态</span></li><li style="font-size:14px;"><span style="text-decoration:none;">当前项目状态提示“待审核”状态信息，项目方可撤回进行重新编辑提交或撤销发布</span></li></ul><p style="font-size:14px;"><span style="text-decoration:none;">2、未通过</span></p><ul><li style="font-size:14px;"><span style="text-decoration:none;">节点运营商管理人员审核项目信息后，执行“未通过”操作的项目状态</span></li><li style="font-size:14px;"><span style="text-decoration:none;">当前项目状态显示运营商管理反馈的“未通过”原因说明，项目方可对此状态项目进行重新编辑提交或撤销发布</span></li></ul><p style="font-size:14px;"><span style="text-decoration:none;">3、已上线</span></p><ul><li style="font-size:14px;"><span style="text-decoration:none;">节点运营商管理人员审核项目信息后，执行“通过”操作的项目状态</span></li><li style="font-size:14px;"><span style="text-decoration:none;">当前项目状态已上线，除显示已通过审核的基本项目信息外，提供“发行卡片”和“发起众筹”操作，</span><span style="font-size:13px;text-decoration:none;">并</span><span style="text-decoration:none;">显示已发起的众筹内容</span></li><li style="font-size:14px;"><span style="text-decoration:none;">发行卡片：</span><span style="font-size:13px;text-decoration:none;">暂时仅做说明提示，不开发实际功能</span><span style="text-decoration:none;">撤销发布；（后续</span><span style="font-size:13px;text-decoration:none;">基于已发布的项目，发行对应的货币卡，可用于优惠充值活动等场景）</span></li><li style="font-size:13px;"><span style="text-decoration:none;">发起众筹：点击进入发起众筹的操作页面</span></li></ul>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u907" class="ax_default box_2">
+        <div id="u907_div" class=""></div>
+        <div id="u907_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u908" class="ax_default _形状">
+        <div id="u908_div" class=""></div>
+        <div id="u908_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u909" class="ax_default _形状">
+        <img id="u909_img" class="img " src="images/迭代需求（3_27）/u7.svg"/>
+        <div id="u909_text" class="text ">
+          <p><span style="text-decoration:none;">BTOKEN</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u910" class="ax_default" data-left="50" data-top="830" data-width="1000" data-height="57">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u911" class="ax_default _形状">
+          <div id="u911_div" class=""></div>
+          <div id="u911_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u912" class="ax_default _图像">
+          <img id="u912_img" class="img " src="images/迭代需求（3_27）/u18.png"/>
+          <div id="u912_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u913" class="ax_default _图像">
+          <img id="u913_img" class="img " src="images/迭代需求（3_27）/u19.png"/>
+          <div id="u913_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u914" class="ax_default _图像">
+          <img id="u914_img" class="img " src="images/迭代需求（3_27）/u20.png"/>
+          <div id="u914_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u915" class="ax_default _形状">
+          <div id="u915_div" class=""></div>
+          <div id="u915_text" class="text ">
+            <p><span style="text-decoration:none;">backstage.btoken.com/</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u916" class="ax_default _形状">
+          <div id="u916_div" class=""></div>
+          <div id="u916_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u917" class="ax_default" data-left="63" data-top="838" data-width="53" data-height="12">
+
+          <!-- Unnamed (圆形) -->
+          <div id="u918" class="ax_default ellipse">
+            <img id="u918_img" class="img " src="images/迭代需求（3_27）/u24.svg"/>
+            <div id="u918_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (圆形) -->
+          <div id="u919" class="ax_default ellipse">
+            <img id="u919_img" class="img " src="images/迭代需求（3_27）/u25.svg"/>
+            <div id="u919_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (圆形) -->
+          <div id="u920" class="ax_default ellipse">
+            <img id="u920_img" class="img " src="images/迭代需求（3_27）/u26.svg"/>
+            <div id="u920_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u921" class="ax_default _文本">
+          <div id="u921_div" class=""></div>
+          <div id="u921_text" class="text ">
+            <p><span style="text-decoration:none;">BTOKEN</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u922" class="ax_default _文本">
+        <div id="u922_div" class=""></div>
+        <div id="u922_text" class="text ">
+          <p><span style="text-decoration:none;">xxx@gmail.com</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u923" class="ax_default _文本">
+        <div id="u923_div" class=""></div>
+        <div id="u923_text" class="text ">
+          <p><span style="text-decoration:none;">登出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u924" class="ax_default _文本">
+        <div id="u924_div" class=""></div>
+        <div id="u924_text" class="text ">
+          <p><span style="text-decoration:none;">项目管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u925" class="ax_default _文本">
+        <div id="u925_div" class=""></div>
+        <div id="u925_text" class="text ">
+          <p><span style="text-decoration:none;">节点管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u926" class="ax_default _文本">
+        <div id="u926_div" class=""></div>
+        <div id="u926_text" class="text ">
+          <p><span style="text-decoration:none;">平台首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u927" class="ax_default line">
+        <img id="u927_img" class="img " src="images/迭代需求（3_27）/u11.svg"/>
+        <div id="u927_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u928" class="ax_default box_2">
+        <div id="u928_div" class=""></div>
+        <div id="u928_text" class="text ">
+          <p><span style="text-decoration:none;">QKL</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u929" class="ax_default box_2">
+        <div id="u929_div" class=""></div>
+        <div id="u929_text" class="text ">
+          <p><span style="text-decoration:none;">JDB</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u930" class="ax_default box_2">
+        <div id="u930_div" class=""></div>
+        <div id="u930_text" class="text ">
+          <p><span style="text-decoration:none;">JZK</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u931" class="ax_default box_2">
+        <div id="u931_div" class=""></div>
+        <div id="u931_text" class="text ">
+          <p><span style="text-decoration:none;">NNB</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u932" class="ax_default box_2">
+        <div id="u932_div" class=""></div>
+        <div id="u932_text" class="text ">
+          <p><span style="text-decoration:none;">DMB</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u933" class="ax_default box_2">
+        <div id="u933_div" class=""></div>
+        <div id="u933_text" class="text ">
+          <p><span style="text-decoration:none;">HXZ</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u934" class="ax_default box_2">
+        <div id="u934_div" class=""></div>
+        <div id="u934_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u935" class="ax_default box_2">
+        <div id="u935_div" class=""></div>
+        <div id="u935_text" class="text ">
+          <p><span style="text-decoration:none;">我的项目</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u936" class="ax_default _文本">
+        <div id="u936_div" class=""></div>
+        <div id="u936_text" class="text ">
+          <p><span style="text-decoration:none;">DMB（大米币）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u937" class="ax_default _文本">
+        <div id="u937_div" class=""></div>
+        <div id="u937_text" class="text ">
+          <p><span style="text-decoration:none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u938" class="ax_default line">
+        <img id="u938_img" class="img " src="images/迭代需求（3_27）/u32.svg"/>
+        <div id="u938_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u939" class="ax_default primary_button">
+        <img id="u939_img" class="img " src="images/项目管理后台/u939.svg"/>
+        <div id="u939_text" class="text ">
+          <p><span style="text-decoration:none;">撤回编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u940" class="ax_default _文本">
+        <div id="u940_div" class=""></div>
+        <div id="u940_text" class="text ">
+          <p><span style="text-decoration:none;">待审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u941" class="ax_default primary_button">
+        <img id="u941_img" class="img " src="images/项目管理后台/u939.svg"/>
+        <div id="u941_text" class="text ">
+          <p><span style="text-decoration:none;">撤销项目</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u942" class="ax_default _文本">
+        <div id="u942_div" class=""></div>
+        <div id="u942_text" class="text ">
+          <p><span style="text-decoration:none;">区代理审核人员将尽快处理你的提交信息，请耐心等待审核结果</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u943" class="ax_default box_2">
+        <div id="u943_div" class=""></div>
+        <div id="u943_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u944" class="ax_default _形状">
+        <div id="u944_div" class=""></div>
+        <div id="u944_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u945" class="ax_default _形状">
+        <img id="u945_img" class="img " src="images/迭代需求（3_27）/u7.svg"/>
+        <div id="u945_text" class="text ">
+          <p><span style="text-decoration:none;">BTOKEN</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u946" class="ax_default" data-left="50" data-top="1505" data-width="1000" data-height="57">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u947" class="ax_default _形状">
+          <div id="u947_div" class=""></div>
+          <div id="u947_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u948" class="ax_default _图像">
+          <img id="u948_img" class="img " src="images/迭代需求（3_27）/u18.png"/>
+          <div id="u948_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u949" class="ax_default _图像">
+          <img id="u949_img" class="img " src="images/迭代需求（3_27）/u19.png"/>
+          <div id="u949_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u950" class="ax_default _图像">
+          <img id="u950_img" class="img " src="images/迭代需求（3_27）/u20.png"/>
+          <div id="u950_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u951" class="ax_default _形状">
+          <div id="u951_div" class=""></div>
+          <div id="u951_text" class="text ">
+            <p><span style="text-decoration:none;">backstage.btoken.com/</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u952" class="ax_default _形状">
+          <div id="u952_div" class=""></div>
+          <div id="u952_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u953" class="ax_default" data-left="63" data-top="1513" data-width="53" data-height="12">
+
+          <!-- Unnamed (圆形) -->
+          <div id="u954" class="ax_default ellipse">
+            <img id="u954_img" class="img " src="images/迭代需求（3_27）/u24.svg"/>
+            <div id="u954_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (圆形) -->
+          <div id="u955" class="ax_default ellipse">
+            <img id="u955_img" class="img " src="images/迭代需求（3_27）/u25.svg"/>
+            <div id="u955_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (圆形) -->
+          <div id="u956" class="ax_default ellipse">
+            <img id="u956_img" class="img " src="images/迭代需求（3_27）/u26.svg"/>
+            <div id="u956_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u957" class="ax_default _文本">
+          <div id="u957_div" class=""></div>
+          <div id="u957_text" class="text ">
+            <p><span style="text-decoration:none;">BTOKEN</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u958" class="ax_default _文本">
+        <div id="u958_div" class=""></div>
+        <div id="u958_text" class="text ">
+          <p><span style="text-decoration:none;">xxx@gmail.com</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u959" class="ax_default _文本">
+        <div id="u959_div" class=""></div>
+        <div id="u959_text" class="text ">
+          <p><span style="text-decoration:none;">登出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u960" class="ax_default _文本">
+        <div id="u960_div" class=""></div>
+        <div id="u960_text" class="text ">
+          <p><span style="text-decoration:none;">项目管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u961" class="ax_default _文本">
+        <div id="u961_div" class=""></div>
+        <div id="u961_text" class="text ">
+          <p><span style="text-decoration:none;">节点管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u962" class="ax_default _文本">
+        <div id="u962_div" class=""></div>
+        <div id="u962_text" class="text ">
+          <p><span style="text-decoration:none;">平台首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u963" class="ax_default line">
+        <img id="u963_img" class="img " src="images/迭代需求（3_27）/u11.svg"/>
+        <div id="u963_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u964" class="ax_default box_2">
+        <div id="u964_div" class=""></div>
+        <div id="u964_text" class="text ">
+          <p><span style="text-decoration:none;">QKL</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u965" class="ax_default box_2">
+        <div id="u965_div" class=""></div>
+        <div id="u965_text" class="text ">
+          <p><span style="text-decoration:none;">JDB</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u966" class="ax_default box_2">
+        <div id="u966_div" class=""></div>
+        <div id="u966_text" class="text ">
+          <p><span style="text-decoration:none;">JZK</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u967" class="ax_default box_2">
+        <div id="u967_div" class=""></div>
+        <div id="u967_text" class="text ">
+          <p><span style="text-decoration:none;">NNB</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u968" class="ax_default box_2">
+        <div id="u968_div" class=""></div>
+        <div id="u968_text" class="text ">
+          <p><span style="text-decoration:none;">DMB</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u969" class="ax_default box_2">
+        <div id="u969_div" class=""></div>
+        <div id="u969_text" class="text ">
+          <p><span style="text-decoration:none;">HXZ</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u970" class="ax_default box_2">
+        <div id="u970_div" class=""></div>
+        <div id="u970_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u971" class="ax_default box_2">
+        <div id="u971_div" class=""></div>
+        <div id="u971_text" class="text ">
+          <p><span style="text-decoration:none;">我的项目</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u972" class="ax_default _文本">
+        <div id="u972_div" class=""></div>
+        <div id="u972_text" class="text ">
+          <p><span style="text-decoration:none;">HXZ（回形针）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u973" class="ax_default _文本">
+        <div id="u973_div" class=""></div>
+        <div id="u973_text" class="text ">
+          <p><span style="text-decoration:none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u974" class="ax_default line">
+        <img id="u974_img" class="img " src="images/迭代需求（3_27）/u32.svg"/>
+        <div id="u974_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u975" class="ax_default primary_button">
+        <img id="u975_img" class="img " src="images/项目管理后台/u939.svg"/>
+        <div id="u975_text" class="text ">
+          <p><span style="text-decoration:none;">重新编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u976" class="ax_default _文本">
+        <div id="u976_div" class=""></div>
+        <div id="u976_text" class="text ">
+          <p><span style="text-decoration:none;">未通过</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u977" class="ax_default primary_button">
+        <img id="u977_img" class="img " src="images/项目管理后台/u939.svg"/>
+        <div id="u977_text" class="text ">
+          <p><span style="text-decoration:none;">撤销项目</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u978" class="ax_default _文本">
+        <div id="u978_div" class=""></div>
+        <div id="u978_text" class="text ">
+          <p><span style="text-decoration:none;">未通过原因说明balabala~~~~~</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u979" class="ax_default _图像">
+        <img id="u979_img" class="img " src="images/项目管理后台/u979.svg"/>
+        <div id="u979_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u980" class="ax_default _图像">
+        <img id="u980_img" class="img " src="images/项目管理后台/u979.svg"/>
+        <div id="u980_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u981" class="ax_default">
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u982" class="ax_default _文本">
+        <div id="u982_div" class=""></div>
+        <div id="u982_text" class="text ">
+          <p><span style="text-decoration:none;">众筹的发起申请状态以及对应操作项</span></p><p><span style="text-decoration:none;">1、待审核</span></p><ul><li style=""><span style="text-decoration:none;">即提交众筹信息后，节点运营商管理人员暂未处理的众筹状态</span></li><li style=""><span style="text-decoration:none;">当前众筹状态显示“待审核”状态信息，项目方可撤回进行重新编辑提交或撤销发布</span></li></ul><p><span style="text-decoration:none;">2、未通过</span></p><ul><li style=""><span style="text-decoration:none;">节点运营商管理人员审核众筹信息后，执行“未通过”操作的众筹状态</span></li><li style=""><span style="text-decoration:none;">当前众筹状态显示运营商管理反馈的“未通过”原因说明，项目方可对此状态的众筹进行重新编辑提交或撤销发布</span></li></ul><p><span style="text-decoration:none;">3、已通过</span></p><ul><li style=""><span style="text-decoration:none;">节点运营商管理人员审核众筹信息后，执行“通过”操作的项目状态，且众筹开始时间尚未开始</span></li><li style=""><span style="text-decoration:none;">已通过审核的众筹支持查看众筹的详细信息，含众筹名称、众筹描述、起止时间、上线状态（尚未开始、众筹进行中、众筹成功、众筹失败）、目标完成度</span></li></ul>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u983" class="ax_default box_2">
+        <div id="u983_div" class=""></div>
+        <div id="u983_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u984" class="ax_default _形状">
+        <div id="u984_div" class=""></div>
+        <div id="u984_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u985" class="ax_default _形状">
+        <img id="u985_img" class="img " src="images/迭代需求（3_27）/u7.svg"/>
+        <div id="u985_text" class="text ">
+          <p><span style="text-decoration:none;">BTOKEN</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u986" class="ax_default _文本">
+        <div id="u986_div" class=""></div>
+        <div id="u986_text" class="text ">
+          <p><span style="text-decoration:none;">xxx@gmail.com</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u987" class="ax_default _文本">
+        <div id="u987_div" class=""></div>
+        <div id="u987_text" class="text ">
+          <p><span style="text-decoration:none;">登出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u988" class="ax_default _文本">
+        <div id="u988_div" class=""></div>
+        <div id="u988_text" class="text ">
+          <p><span style="text-decoration:none;">项目管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u989" class="ax_default _文本">
+        <div id="u989_div" class=""></div>
+        <div id="u989_text" class="text ">
+          <p><span style="text-decoration:none;">节点管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u990" class="ax_default _文本">
+        <div id="u990_div" class=""></div>
+        <div id="u990_text" class="text ">
+          <p><span style="text-decoration:none;">平台首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u991" class="ax_default line">
+        <img id="u991_img" class="img " src="images/迭代需求（3_27）/u11.svg"/>
+        <div id="u991_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u992" class="ax_default box_2">
+        <div id="u992_div" class=""></div>
+        <div id="u992_text" class="text ">
+          <p><span style="text-decoration:none;">QKL</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u993" class="ax_default box_2">
+        <div id="u993_div" class=""></div>
+        <div id="u993_text" class="text ">
+          <p><span style="text-decoration:none;">NNB</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u994" class="ax_default box_2">
+        <div id="u994_div" class=""></div>
+        <div id="u994_text" class="text ">
+          <p><span style="text-decoration:none;">DMB</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u995" class="ax_default box_2">
+        <div id="u995_div" class=""></div>
+        <div id="u995_text" class="text ">
+          <p><span style="text-decoration:none;">HXZ</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u996" class="ax_default box_2">
+        <div id="u996_div" class=""></div>
+        <div id="u996_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u997" class="ax_default box_2">
+        <div id="u997_div" class=""></div>
+        <div id="u997_text" class="text ">
+          <p><span style="text-decoration:none;">我的项目</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u998" class="ax_default _文本">
+        <div id="u998_div" class=""></div>
+        <div id="u998_text" class="text ">
+          <p><span style="text-decoration:none;">NNB（牛奶币）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u999" class="ax_default _文本">
+        <div id="u999_div" class=""></div>
+        <div id="u999_text" class="text ">
+          <p><span style="text-decoration:none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1000" class="ax_default line">
+        <img id="u1000_img" class="img " src="images/迭代需求（3_27）/u32.svg"/>
+        <div id="u1000_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u1001" class="ax_default primary_button">
+        <img id="u1001_img" class="img " src="images/项目管理后台/u939.svg"/>
+        <div id="u1001_text" class="text ">
+          <p><span style="text-decoration:none;">发行新卡</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1002" class="ax_default _文本">
+        <div id="u1002_div" class=""></div>
+        <div id="u1002_text" class="text ">
+          <p><span style="text-decoration:none;">我的众筹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u1003" class="ax_default _图像">
+        <img id="u1003_img" class="img " src="images/项目管理后台/u979.svg"/>
+        <div id="u1003_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u1004" class="ax_default primary_button">
+        <img id="u1004_img" class="img " src="images/项目管理后台/u939.svg"/>
+        <div id="u1004_text" class="text ">
+          <p><span style="text-decoration:none;">发起众筹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u1005" class="ax_default" data-left="50" data-top="2174" data-width="1000" data-height="57">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1006" class="ax_default _形状">
+          <div id="u1006_div" class=""></div>
+          <div id="u1006_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u1007" class="ax_default _图像">
+          <img id="u1007_img" class="img " src="images/迭代需求（3_27）/u18.png"/>
+          <div id="u1007_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u1008" class="ax_default _图像">
+          <img id="u1008_img" class="img " src="images/迭代需求（3_27）/u19.png"/>
+          <div id="u1008_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u1009" class="ax_default _图像">
+          <img id="u1009_img" class="img " src="images/迭代需求（3_27）/u20.png"/>
+          <div id="u1009_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1010" class="ax_default _形状">
+          <div id="u1010_div" class=""></div>
+          <div id="u1010_text" class="text ">
+            <p><span style="text-decoration:none;">backstage.btoken.com/</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1011" class="ax_default _形状">
+          <div id="u1011_div" class=""></div>
+          <div id="u1011_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1012" class="ax_default" data-left="63" data-top="2182" data-width="53" data-height="12">
+
+          <!-- Unnamed (圆形) -->
+          <div id="u1013" class="ax_default ellipse">
+            <img id="u1013_img" class="img " src="images/迭代需求（3_27）/u24.svg"/>
+            <div id="u1013_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (圆形) -->
+          <div id="u1014" class="ax_default ellipse">
+            <img id="u1014_img" class="img " src="images/迭代需求（3_27）/u25.svg"/>
+            <div id="u1014_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (圆形) -->
+          <div id="u1015" class="ax_default ellipse">
+            <img id="u1015_img" class="img " src="images/迭代需求（3_27）/u26.svg"/>
+            <div id="u1015_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1016" class="ax_default _文本">
+          <div id="u1016_div" class=""></div>
+          <div id="u1016_text" class="text ">
+            <p><span style="text-decoration:none;">BTOKEN</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1017" class="ax_default box_2">
+        <div id="u1017_div" class=""></div>
+        <div id="u1017_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1018" class="ax_default _文本">
+        <div id="u1018_div" class=""></div>
+        <div id="u1018_text" class="text ">
+          <p><span style="text-decoration:none;">可自我溶解的牛奶胶囊</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1019" class="ax_default _文本">
+        <div id="u1019_div" class=""></div>
+        <div id="u1019_text" class="text ">
+          <p><span style="text-decoration:none;">目前已研制出甜味和微甜两种牛奶胶囊，还在研究原味牛奶胶囊，以满足不同口味的消费者需求。牛奶胶囊可按不同的形状生产，能在常温下存放，生产出的胶囊至少可保存3个星期。此工艺还可应用于其他液体胶囊，例如水果汁浓缩胶囊...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1020" class="ax_default _文本">
+        <div id="u1020_div" class=""></div>
+        <div id="u1020_text" class="text ">
+          <p><span style="text-decoration:none;">众筹进行中</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1021" class="ax_default line">
+        <img id="u1021_img" class="img " src="images/项目管理后台/u1021.svg"/>
+        <div id="u1021_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1022" class="ax_default line">
+        <img id="u1022_img" class="img " src="images/项目管理后台/u1022.svg"/>
+        <div id="u1022_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1023" class="ax_default _文本">
+        <div id="u1023_div" class=""></div>
+        <div id="u1023_text" class="text ">
+          <p><span style="text-decoration:none;">目标500ETH</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1024" class="ax_default _文本">
+        <div id="u1024_div" class=""></div>
+        <div id="u1024_text" class="text ">
+          <p><span style="text-decoration:none;">已筹400ETH</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1025" class="ax_default _文本">
+        <div id="u1025_div" class=""></div>
+        <div id="u1025_text" class="text ">
+          <p><span style="text-decoration:none;">众筹时间 2018.12.12~2019.02.~01</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1026" class="ax_default box_2">
+        <div id="u1026_div" class=""></div>
+        <div id="u1026_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1027" class="ax_default _文本">
+        <div id="u1027_div" class=""></div>
+        <div id="u1027_text" class="text ">
+          <p><span style="text-decoration:none;">美國科學！不靠乳牛就能生產的「牛奶」</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1028" class="ax_default _文本">
+        <div id="u1028_div" class=""></div>
+        <div id="u1028_text" class="text ">
+          <p><span style="text-decoration:none;">牛奶是种古老的天然饮料，由于蕴含许多对人体有益的营养素，所以多少年来都被视为一种健康饮品，但却有些人对于牛奶的接受度不高，如严格吃素的人因不摄取蛋、奶素自然就与牛奶无缘，另外部分民族都有“乳糖不耐症”，无法有效消化牛奶或其他...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1029" class="ax_default _文本">
+        <div id="u1029_div" class=""></div>
+        <div id="u1029_text" class="text ">
+          <p><span style="text-decoration:none;">待审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1030" class="ax_default _文本">
+        <div id="u1030_div" class=""></div>
+        <div id="u1030_text" class="text ">
+          <p><span style="text-decoration:none;">众筹时间 2018.12.12~2019.02.~01</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1031" class="ax_default _文本">
+        <div id="u1031_div" class=""></div>
+        <div id="u1031_text" class="text ">
+          <p><span style="text-decoration:underline ;">撤销众筹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1032" class="ax_default _文本">
+        <div id="u1032_div" class=""></div>
+        <div id="u1032_text" class="text ">
+          <p><span style="text-decoration:underline ;">重新编辑提交</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1033" class="ax_default box_2">
+        <div id="u1033_div" class=""></div>
+        <div id="u1033_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1034" class="ax_default _文本">
+        <div id="u1034_div" class=""></div>
+        <div id="u1034_text" class="text ">
+          <p><span style="text-decoration:none;">日本黑科技3D打印牛奶</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1035" class="ax_default _文本">
+        <div id="u1035_div" class=""></div>
+        <div id="u1035_text" class="text ">
+          <p><span style="text-decoration:none;">第一次听到3D打印机这个“怪物”，完全觉得它像外星人，因为在思想中觉得很不可思议，但是自从投产以来，它一次次地让我们惊奇。牛奶也能打印？日本黑科技3D打印牛奶你敢喝吗？</span></p><p><span style="text-decoration:none;"><br></span></p><p><span style="text-decoration:none;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1036" class="ax_default _文本">
+        <div id="u1036_div" class=""></div>
+        <div id="u1036_text" class="text ">
+          <p><span style="text-decoration:none;">未通过：众筹信息不合规</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1037" class="ax_default _文本">
+        <div id="u1037_div" class=""></div>
+        <div id="u1037_text" class="text ">
+          <p><span style="text-decoration:none;">众筹时间 2018.12.12~2019.02.~01</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1038" class="ax_default _文本">
+        <div id="u1038_div" class=""></div>
+        <div id="u1038_text" class="text ">
+          <p><span style="text-decoration:underline ;">撤销众筹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1039" class="ax_default _文本">
+        <div id="u1039_div" class=""></div>
+        <div id="u1039_text" class="text ">
+          <p><span style="text-decoration:underline ;">重新编辑提交</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u1040" class="ax_default droplist">
+        <div id="u1040_div" class=""></div>
+        <select id="u1040_input" class="u1040_input">
+          <option class="u1040_input_option" value="全部">全部</option>
+          <option class="u1040_input_option" value="众筹进行中">众筹进行中</option>
+          <option class="u1040_input_option" value="众筹成功">众筹成功</option>
+          <option class="u1040_input_option" value="众筹失败">众筹失败</option>
+          <option class="u1040_input_option" value="待审核">待审核</option>
+          <option class="u1040_input_option" value="未通过">未通过</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1041" class="ax_default _文本">
+        <div id="u1041_div" class=""></div>
+        <div id="u1041_text" class="text ">
+          <p><span style="text-decoration:none;">状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1042" class="ax_default box_2">
+        <div id="u1042_div" class=""></div>
+        <div id="u1042_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1043" class="ax_default _文本">
+        <div id="u1043_div" class=""></div>
+        <div id="u1043_text" class="text ">
+          <p><span style="text-decoration:none;">黑科技面料牛奶内衣！保湿、美白更保暖，更是孕妈妈润肤必备</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1044" class="ax_default _文本">
+        <div id="u1044_div" class=""></div>
+        <div id="u1044_text" class="text ">
+          <p><span style="text-decoration:none;">可穿在身上的“化妆品”——Moko Poio “莫可佩尔”牛奶美肤衣，穿着它在保暖的同时，还可给全身擦一次身体乳，让肌肤超级嫩滑，别说男神，连自己都忍不住要狠狠摸上几把...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1045" class="ax_default _文本">
+        <div id="u1045_div" class=""></div>
+        <div id="u1045_text" class="text ">
+          <p><span style="text-decoration:none;">众筹成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1046" class="ax_default line">
+        <img id="u1046_img" class="img " src="images/项目管理后台/u1021.svg"/>
+        <div id="u1046_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1047" class="ax_default line">
+        <img id="u1047_img" class="img " src="images/项目管理后台/u1047.svg"/>
+        <div id="u1047_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1048" class="ax_default _文本">
+        <div id="u1048_div" class=""></div>
+        <div id="u1048_text" class="text ">
+          <p><span style="text-decoration:none;">目标500ETH</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1049" class="ax_default _文本">
+        <div id="u1049_div" class=""></div>
+        <div id="u1049_text" class="text ">
+          <p><span style="text-decoration:none;">已筹500ETH</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1050" class="ax_default _文本">
+        <div id="u1050_div" class=""></div>
+        <div id="u1050_text" class="text ">
+          <p><span style="text-decoration:none;">众筹时间 2018.12.12~2019.02.~01</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1051" class="ax_default _文本">
+        <div id="u1051_div" class=""></div>
+        <div id="u1051_text" class="text ">
+          <p><span style="text-decoration:none;">资金管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1052" class="ax_default _文本">
+        <div id="u1052_div" class=""></div>
+        <div id="u1052_text" class="text ">
+          <p><span style="text-decoration:none;">资金管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1053" class="ax_default _文本">
+        <div id="u1053_div" class=""></div>
+        <div id="u1053_text" class="text ">
+          <p><span style="text-decoration:none;">资金管理</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>

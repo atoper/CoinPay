@@ -55,13 +55,14 @@
     });
 
     var _windowInfo;
-    var _updateWindowInfo = function () {
+    var _updateWindowInfo = $axure.updateWindowInfo = function () {
         var win = {};
         var jWin = $(window);
+        var scrollWin = $('#ios-safari-html').length > 0 ? $('#ios-safari-html') : jWin;
         win.width = jWin.width();
         win.height = jWin.height();
-        win.scrollx = jWin.scrollLeft();
-        win.scrolly = jWin.scrollTop();
+        win.scrollx = scrollWin.scrollLeft();
+        win.scrolly = scrollWin.scrollTop();
         _windowInfo = win;
     };
     $ax.getWindowInfo = function () {
@@ -248,7 +249,7 @@
             var masterPath = $ax.getPathFromScriptId($ax.repeater.getScriptIdFromElementId(elementId));
             masterPath.pop();
             if(masterPath.length > 0) {
-                var masterId = $ax.getElementIdFromPath(masterPath, { itemNum: itemNum });
+                var masterId = $ax.getElementIdFromPath(masterPath, { itemNum: itemNum }, true);
                 if(!masterId) return undefined;
                 var masterRepeater = $ax.getParentRepeaterFromElementId($ax.repeater.getScriptIdFromElementId(masterId));
                 if(!parentRepeater || masterRepeater) {
@@ -264,7 +265,7 @@
                 // If there is a parent master, the dynamic panel must be in it, otherwise parentDynamicPanel would be undefined.
                 var panelPath = masterPath;
                 panelPath[panelPath.length] = parentDynamicPanel;
-                panelId = $ax.getElementIdFromPath(panelPath, { itemNum: itemNum });
+                panelId = $ax.getElementIdFromPath(panelPath, { itemNum: itemNum }, true);
                 if(!panelId) return undefined;
                 var panelRepeater = $ax.getParentRepeaterFromElementId(panelId);
                 if(!parentRepeater || panelRepeater) {
